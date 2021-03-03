@@ -1,0 +1,16 @@
+﻿Nuget Packages:
+Microsoft.CrmSdk.XrmTooling.PluginRegistrationTool
+Microsoft.CrmSdk.CoreAssemblies
+
+Notes:
+1.  Assembly must be signed before deploying.  
+2.  Use the .net framework 4.6.2
+
+Debugging:
+1.  Using the plugin registration tool, start profiling. 
+2.  In code, set break points and attach to the plugin registration tool process.
+3.  Select Debug.  Chose the log from drop downlist and select the assembly.  
+4.  Run code
+
+
+
